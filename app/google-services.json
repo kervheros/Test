@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "130843584251",
+    "project_id": "test-dbfda"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:130843584251:android:3e43db51b4882c20",
+        "android_client_info": {
+          "package_name": "com.example.reivin.test"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "130843584251-p55ri43r46rmcs8de5qhq34be2dpc0fc.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "130843584251-6tb37dpmfalm4m693eh1623glmffd7h8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.reivin.test",
+            "certificate_hash": "e09d28e3c0d281efd42a3fa52bbd64d3c6c27d64"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDJwT_LMN0cqq-7s3qcjiZ4RtFyZWEvCh4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
