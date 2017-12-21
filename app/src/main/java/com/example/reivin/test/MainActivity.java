@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity implements GoogleApiClient.O
 
     private GoogleApiClient api;
     private SignInButton signInButton;
-    public static final int RC_SING_IN=9001;
+    public static final int RC_SING_IN=777;
 
     private EditText nombre;
     private EditText contraseña;
@@ -111,6 +111,7 @@ public class MainActivity extends AppCompatActivity implements GoogleApiClient.O
 
     private void go_access_permit() {
         Intent cont_per =new Intent(this, cont_permitido.class);
+        cont_per.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_CLEAR_TASK | Intent.FLAG_ACTIVITY_NEW_TASK);
         startActivity(cont_per);
     }
 }
